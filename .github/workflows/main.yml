@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Krok testowy
-        run: echo "Testy przeszły pomyślnie!"
+        run: exit 1
       - name: Krok wdrożenia
         run: echo "Deploy na środowisko zakończony sukcesem!"
